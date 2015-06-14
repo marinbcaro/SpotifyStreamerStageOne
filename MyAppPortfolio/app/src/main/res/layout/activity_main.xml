@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:paddingBottom="30dp"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/title_app"
         android:textSize="20sp" />
 
     <Button
@@ -23,9 +23,9 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
-        android:background="#2196F3"
-        android:onClick="spotify"
-        android:text="spotify streamer"
+        android:background="@color/blue"
+        android:onClick="showToast"
+        android:text="@string/spotify"
         android:textAllCaps="true" />
 
     <Button
@@ -34,9 +34,9 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
-        android:background="#2196F3"
-        android:onClick="scores"
-        android:text="scores app"
+        android:background="@color/blue"
+        android:onClick="showToast"
+        android:text="@string/scores"
         android:textAllCaps="true" />
 
     <Button
@@ -45,9 +45,9 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
-        android:background="#2196F3"
-        android:onClick="library"
-        android:text="library app"
+        android:background="@color/blue"
+        android:onClick="showToast"
+        android:text="@string/library"
         android:textAllCaps="true" />
 
     <Button
@@ -56,9 +56,9 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
-        android:background="#2196F3"
-        android:onClick="bigger"
-        android:text="build it bigger"
+        android:background="@color/blue"
+        android:onClick="showToast"
+        android:text="@string/bigger"
         android:textAllCaps="true" />
 
     <Button
@@ -67,9 +67,9 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
-        android:background="#2196F3"
-        android:onClick="xyz"
-        android:text="xyz reader"
+        android:background="@color/blue"
+        android:onClick="showToast"
+        android:text="@string/reader"
         android:textAllCaps="true" />
 
     <Button
@@ -78,9 +78,9 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
-        android:background="#E040FB"
-        android:onClick="capstone"
-        android:text="capstone: my own app"
+        android:background="@color/pink"
+        android:onClick="showToast"
+        android:text="@string/capstone"
         android:textAllCaps="true"
         android:textColor="@android:color/white" />
 
